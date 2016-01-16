@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE6DB8B1C49FB39008E16CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6DB8A1C49FB39008E16CF /* AppDelegate.swift */; };
+		5FE6DB8D1C49FB39008E16CF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6DB8C1C49FB39008E16CF /* FirstViewController.swift */; };
+		5FE6DB8F1C49FB39008E16CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6DB8E1C49FB39008E16CF /* SecondViewController.swift */; };
+		5FE6DB921C49FB3A008E16CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6DB901C49FB3A008E16CF /* Main.storyboard */; };
+		5FE6DB941C49FB3A008E16CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6DB931C49FB3A008E16CF /* Assets.xcassets */; };
+		5FE6DB971C49FB3A008E16CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE6DB951C49FB3A008E16CF /* LaunchScreen.storyboard */; };
+		5FE6DB9F1C49FD0A008E16CF /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6DB9E1C49FD0A008E16CF /* AlarmTableViewController.swift */; };
+		782ADB697A3513F8D964476E /* Pods_Nap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD0226F1A7117AB49172DC /* Pods_Nap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FE6DB871C49FB39008E16CF /* Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE6DB8A1C49FB39008E16CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE6DB8C1C49FB39008E16CF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5FE6DB8E1C49FB39008E16CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5FE6DB911C49FB3A008E16CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE6DB931C49FB3A008E16CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE6DB961C49FB3A008E16CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE6DB981C49FB3A008E16CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE6DB9E1C49FD0A008E16CF /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
+		68AD0226F1A7117AB49172DC /* Pods_Nap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C201CA2F91DCBE02A6088F /* Pods-Nap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nap/Pods-Nap.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F89D0973B736B6011AF483 /* Pods-Nap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nap/Pods-Nap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE6DB841C49FB39008E16CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782ADB697A3513F8D964476E /* Pods_Nap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1F4F1422CA4237E9949D45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C201CA2F91DCBE02A6088F /* Pods-Nap.debug.xcconfig */,
+				F2F89D0973B736B6011AF483 /* Pods-Nap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FE6DB7E1C49FB39008E16CF = {
+			isa = PBXGroup;
+			children = (
+				5FE6DB891C49FB39008E16CF /* Nap */,
+				5FE6DB881C49FB39008E16CF /* Products */,
+				4F1F4F1422CA4237E9949D45 /* Pods */,
+				72F9E755050B736D49A27211 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE6DB881C49FB39008E16CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE6DB871C49FB39008E16CF /* Nap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE6DB891C49FB39008E16CF /* Nap */ = {
+			isa = PBXGroup;
+			children = (
+				5FE6DB8A1C49FB39008E16CF /* AppDelegate.swift */,
+				5FE6DB8C1C49FB39008E16CF /* FirstViewController.swift */,
+				5FE6DB8E1C49FB39008E16CF /* SecondViewController.swift */,
+				5FE6DB9E1C49FD0A008E16CF /* AlarmTableViewController.swift */,
+				5FE6DB901C49FB3A008E16CF /* Main.storyboard */,
+				5FE6DB931C49FB3A008E16CF /* Assets.xcassets */,
+				5FE6DB951C49FB3A008E16CF /* LaunchScreen.storyboard */,
+				5FE6DB981C49FB3A008E16CF /* Info.plist */,
+			);
+			path = Nap;
+			sourceTree = "<group>";
+		};
+		72F9E755050B736D49A27211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68AD0226F1A7117AB49172DC /* Pods_Nap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE6DB861C49FB39008E16CF /* Nap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE6DB9B1C49FB3A008E16CF /* Build configuration list for PBXNativeTarget "Nap" */;
+			buildPhases = (
+				2561461777FE4CBED1E04572 /* Check Pods Manifest.lock */,
+				5FE6DB831C49FB39008E16CF /* Sources */,
+				5FE6DB841C49FB39008E16CF /* Frameworks */,
+				5FE6DB851C49FB39008E16CF /* Resources */,
+				B1AE49490E68D368F9963BB4 /* Embed Pods Frameworks */,
+				5168BF4097A3F8938523E7DD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nap;
+			productName = Nap;
+			productReference = 5FE6DB871C49FB39008E16CF /* Nap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE6DB7F1C49FB39008E16CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sagar Punhani";
+				TargetAttributes = {
+					5FE6DB861C49FB39008E16CF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F5W4L78R3F;
+					};
+				};
+			};
+			buildConfigurationList = 5FE6DB821C49FB39008E16CF /* Build configuration list for PBXProject "Nap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE6DB7E1C49FB39008E16CF;
+			productRefGroup = 5FE6DB881C49FB39008E16CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE6DB861C49FB39008E16CF /* Nap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE6DB851C49FB39008E16CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE6DB971C49FB3A008E16CF /* LaunchScreen.storyboard in Resources */,
+				5FE6DB941C49FB3A008E16CF /* Assets.xcassets in Resources */,
+				5FE6DB921C49FB3A008E16CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2561461777FE4CBED1E04572 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5168BF4097A3F8938523E7DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nap/Pods-Nap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AE49490E68D368F9963BB4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nap/Pods-Nap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE6DB831C49FB39008E16CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE6DB8F1C49FB39008E16CF /* SecondViewController.swift in Sources */,
+				5FE6DB9F1C49FD0A008E16CF /* AlarmTableViewController.swift in Sources */,
+				5FE6DB8B1C49FB39008E16CF /* AppDelegate.swift in Sources */,
+				5FE6DB8D1C49FB39008E16CF /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FE6DB901C49FB3A008E16CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE6DB911C49FB3A008E16CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE6DB951C49FB3A008E16CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE6DB961C49FB3A008E16CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE6DB991C49FB3A008E16CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE6DB9A1C49FB3A008E16CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE6DB9C1C49FB3A008E16CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C201CA2F91DCBE02A6088F /* Pods-Nap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Nap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FE6DB9D1C49FB3A008E16CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F89D0973B736B6011AF483 /* Pods-Nap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Nap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE6DB821C49FB39008E16CF /* Build configuration list for PBXProject "Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE6DB991C49FB3A008E16CF /* Debug */,
+				5FE6DB9A1C49FB3A008E16CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE6DB9B1C49FB3A008E16CF /* Build configuration list for PBXNativeTarget "Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE6DB9C1C49FB3A008E16CF /* Debug */,
+				5FE6DB9D1C49FB3A008E16CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE6DB7F1C49FB39008E16CF /* Project object */;
+}

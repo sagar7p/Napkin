@@ -1,0 +1,6 @@
+framework module Pods_Nap {
+  umbrella header "Pods-Nap-umbrella.h"
+
+  export *
+  module * { export * }
+}

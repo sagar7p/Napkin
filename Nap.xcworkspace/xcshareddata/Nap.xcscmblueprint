@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0CD0DAD03262FD5D8DD114CFC1B3342950810D5C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F271A5D27A0982BC5DD4DB7B17911EE8C8638E0" : 0,
+    "0CD0DAD03262FD5D8DD114CFC1B3342950810D5C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0D95BDD5-F350-4506-AF88-5CA2C1B9B5B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F271A5D27A0982BC5DD4DB7B17911EE8C8638E0" : "",
+    "0CD0DAD03262FD5D8DD114CFC1B3342950810D5C" : "Nap\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Nap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Nap.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sagar7p\/Napkin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CD0DAD03262FD5D8DD114CFC1B3342950810D5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sagar7p\/Napkin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F271A5D27A0982BC5DD4DB7B17911EE8C8638E0"
+    }
+  ]
+}
